@@ -274,7 +274,7 @@ body {
 }
 
 .ultimas_noticias {
-  margin-top: 165px;
+    margin-top: 165px;
     height: 1156px;
     display: flex;
     flex-direction: column;
@@ -312,10 +312,10 @@ body {
     width: 1280px;
     height: 508px;
     background-color: #9DA6A8;
-    background-image: url(/imagens/🦆\ icon\ _image_.png);
+    background-image: url(/imagens/saude_com_ciencia.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 188px;
+    background-size: 112%;
     border-radius: 12px;
     margin-top: 50px;
   }
@@ -325,10 +325,37 @@ body {
     height: 259px;
     display: inline-block;
     background-color: #9DA6A8;
-    background-image: url(/imagens/🦆\ icon\ _image_.png);
+    background-image: url(/imagens/covid.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 188px;
+    background-size: 115%;
+    margin-top: 15px;
+    margin-right: 16px;
+    border-radius: 12px;
+  }
+  .card__3 {
+    width: 413px;
+    height: 259px;
+    display: inline-block;
+    background-color: #9DA6A8;
+    background-image: url(/imagens/calor-altas-temperaturas.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115%;
+    margin-top: 15px;
+    margin-right: 16px;
+    border-radius: 12px;
+  }
+
+  .card__4 {
+    width: 413px;
+    height: 259px;
+    display: inline-block;
+    background-color: #9DA6A8;
+    background-image: url(/imagens/17\ EXPOEPI.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
     margin-top: 15px;
     margin-right: 16px;
     border-radius: 12px;
@@ -371,6 +398,19 @@ button {
     
   }
 
+  .card__3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+.card__4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
   .titulo_maior {
     margin-top: 210px;
   }
