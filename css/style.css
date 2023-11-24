@@ -72,6 +72,7 @@ header {
 .artigos-text {
   gap: 580px;
   margin-top: 250px;
+  margin-bottom: 26;
 }
 
 .artigos-text h3 {
@@ -147,6 +148,10 @@ header {
   .botao2 {
       margin-top: 333px;
   }
+}
+
+.cars {
+  margin-top: 100px;
 }
  /* fim de artigos */
 
